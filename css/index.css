@@ -1,0 +1,83 @@
+/* 首页特有的样式 */
+
+#nav>h2>.subnav{display:block;}/*让子菜单一直显示*/
+
+/*recommend区域的样式==============================================*/
+#recommend{height: 478px;}
+.recommend{margin-left:247px; padding-left:18px; overflow: hidden;}
+.recommend .list{}
+.recommend .list li{height:52px; border-bottom:1px solid #eee; line-height: 52px;}
+.recommend .list span{padding-left:6px;}
+.recommend .list i{display:inline-block; width:16px; height:22px; background: url(../img/hot.png) no-repeat; position: relative; top:9px; left:0px;}
+.recommend .list i.area{background-image:url(../img/area.png);}
+.recommend .list i.shang{background-image:url(../img/business.png);}
+.recommend .list a{padding:0 11px;}
+
+.recommend .show{width:690px; height:318px; border-bottom:1px solid #eee; overflow: hidden; position:relative;}
+.picshop{height:100%;}
+.picshop li{width:689px; height:100%; float:left; font-size:50px;}
+.recommend .show>div{position:absolute; top:50%; margin-top:-20px; height:39px; background: url(../img/arrow-t.png) no-repeat; cursor:pointer;}
+.recommend .show .btnLeft{left:0; background-position: 0px -151px; width:30px;}
+.recommend .show .btnRight{right:0; background-position: 0px -228px; width:60px; line-height: 39px; font-size:16px; color:#fff;}
+
+
+.recommend>div.fr{border-left:1px solid #eee; border-right: 1px solid #eee;}
+.recommend>div.fr>div.eat{overflow: hidden;}
+.recommend>div.fr>div>img{display:block;}
+.recommend>div.fr>div{border-bottom:1px solid #eee;}
+
+/* 单个推荐商品的样式 */
+.single-recommend{position: relative;}
+.single-recommend.fl{padding-top:10px; padding-right:11px;}
+.single-recommend.fr{padding-top:10px; padding-left:11px;}
+.single-recommend>img{}
+.single-recommend>h4{line-height: 20px;}
+.single-recommend>h4>a{font-size:14px;}
+.single-recommend>p{font-size:12px; margin-top:7px;}
+.single-recommend>.price{position: absolute; right:11px; bottom:0; color:#f76120; font-size:30px; font-weight: bold;}
+
+.single-recommend-line{width:1px; background: #eee; height:318px;}
+
+/* 商品展示区域 ================================*/
+.model-title{padding-top:30px; padding-bottom:13px; overflow: hidden;}
+.model-title>h3{padding-left:50px; position: relative; height: 35px; line-height:35px;}
+.model-title>h3>i{background: url(../img/nav1.png) no-repeat; position: absolute; width:43px; height:35px; left:0; top:0;}
+.model-title>h3>a{font-size:20px; text-decoration: none;}
+.model-title>ul{position: relative; top:11px;}
+.model-title>ul>li{display:inline-block;}
+.model-title>ul a{font-size:14px; border-right: 1px solid #eee; padding-right:15px; padding-left:10px;}
+.model-title>ul a.all{padding-left:15px;}
+.model-content{border-left:1px solid #eee; border-top:1px solid #eee; position: relative; z-index:998;}
+.model-content:after{content:""; clear:both; height:0; display:block;}
+.model-end{height:48px; line-height: 48px; text-align: center; background: #f6f6f6;}
+.model-end>a{font-size:14px;}
+.model-end span{color:#2bb8aa;}
+
+/* 单件商品的样式 */
+.single-shop{border-right:1px solid #eee; border-bottom: 1px solid #eee; padding:12px 16px 22px 15px;}
+.single-shop a{text-decoration: none;}
+.single-shop a:hover{color:#666;}
+.single-shop>a{}
+.single-shop img{}
+.single-shop>h4{font-size:14px; margin-top:17px;}
+.single-shop>p{margin-top:12px; color:#999;}
+.single-shop>ul.price{color:#999; padding-top:18px; padding-bottom: 12px; overflow: hidden; border-bottom:1px dashed #eee;}
+.single-shop>ul.price>li{}
+.single-shop>ul.price>li.fr{position: relative; top:7px;}
+.single-shop>ul.price>li>span{}
+.single-shop>ul.price>li>b{color:#f76120; font-size:20px;}
+.single-shop>div.pingjia{text-align: right;}
+.single-shop>div.pingjia>i{display:inline-block; width:60px; height:12px; background:url(../img/pingjia.png) no-repeat; margin-top:11px;}
+.single-shop>div.pingjia>span{}
+
+/* 侧边栏导航 */
+.side-nav{ border:1px solid #eee; border-bottom: 0; color:#666; z-index:998;}
+.side-nav>li{border-bottom: 1px solid #eee; width:41px; cursor:pointer;}
+.side-nav>li.active,.side-nav>li:hover{background:#2bb8aa; color:#fff;}
+.side-nav>li.active>i,.side-nav>li:hover>i{background-image:url(../img/nav1-white.png);}
+.side-nav>li>i{display:block; background: url(../img/nav1-gray.png) no-repeat; height:35px;}
+.side-nav>li>p{text-align: center; padding:3px 5px 8px; line-height:18px;}
+
+/* 用于切换样式 */
+.side-nav.normal{position: absolute; top:0; left:-70px;}
+.side-nav.fix{position: fixed; left:17px; top:0;}

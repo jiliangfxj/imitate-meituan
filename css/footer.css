@@ -1,0 +1,20 @@
+/* 公共底部的样式 */
+
+
+#footer{}
+
+
+.tab-btn{border-top:1px solid #eee; border-left:1px solid #eee; background: #fafafa; overflow: hidden; cursor:pointer; display:inline-block; margin-top:40px;}
+.tab-btn>li{float:left; border-right: 1px solid #eee; text-align: center; width:90px; height:23px; line-height: 23px;}
+.tab-content{border:1px solid #eee; padding:20px;}
+.tab-content>a{margin:10px 40px; display: inline-block; margin-left:0;}
+.tab-content>a:hover{color:#666;}
+
+/* 超链接列表 */
+.cominfo{border-top:1px double #ccc; height:282px; margin-top:20px;}
+.cominfo a{color:#999;}
+.alist{ width:67%;}
+.alist>ul{width:25%;}
+.alist>ul>h3{line-height: 70px; font-size:14px; font-weight: bold;}
+.alist>ul>li{line-height:22px;}
+.alist>ul>li>a:hover{color:#999;}

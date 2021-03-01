@@ -1,0 +1,13 @@
+.single-shop{}
+.single-shop a{}
+.single-shop>a{}
+.single-shop img{}
+.single-shop>h4{}
+.single-shop>p{}
+.single-shop>ul.price{}
+.single-shop>ul.price>li{}
+.single-shop>ul.price>li>span{}
+.single-shop>ul.price>li>b{}
+.single-shop>div.pingjia{}
+.single-shop>div.pingjia>i{}
+.single-shop>div.pingjia>span{}
